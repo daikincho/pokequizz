@@ -1,0 +1,14 @@
+D:\ingesup\M2\Xamarin\Projets\PokeQuizz\PokeQuizz\PokeQuizz\bin\Debug\netstandard2.0\PokeQuizz.deps.json
+D:\ingesup\M2\Xamarin\Projets\PokeQuizz\PokeQuizz\PokeQuizz\bin\Debug\netstandard2.0\PokeQuizz.dll
+D:\ingesup\M2\Xamarin\Projets\PokeQuizz\PokeQuizz\PokeQuizz\bin\Debug\netstandard2.0\PokeQuizz.pdb
+D:\ingesup\M2\Xamarin\Projets\PokeQuizz\PokeQuizz\PokeQuizz\obj\Debug\netstandard2.0\PokeQuizz.csprojAssemblyReference.cache
+D:\ingesup\M2\Xamarin\Projets\PokeQuizz\PokeQuizz\PokeQuizz\obj\Debug\netstandard2.0\App.xaml.g.cs
+D:\ingesup\M2\Xamarin\Projets\PokeQuizz\PokeQuizz\PokeQuizz\obj\Debug\netstandard2.0\Views\MainPage.xaml.g.cs
+D:\ingesup\M2\Xamarin\Projets\PokeQuizz\PokeQuizz\PokeQuizz\obj\Debug\netstandard2.0\PokeQuizz.csproj.CoreCompileInputs.cache
+D:\ingesup\M2\Xamarin\Projets\PokeQuizz\PokeQuizz\PokeQuizz\obj\Debug\netstandard2.0\PokeQuizz.AssemblyInfoInputs.cache
+D:\ingesup\M2\Xamarin\Projets\PokeQuizz\PokeQuizz\PokeQuizz\obj\Debug\netstandard2.0\PokeQuizz.AssemblyInfo.cs
+D:\ingesup\M2\Xamarin\Projets\PokeQuizz\PokeQuizz\PokeQuizz\obj\Debug\netstandard2.0\XamlC.stamp
+D:\ingesup\M2\Xamarin\Projets\PokeQuizz\PokeQuizz\PokeQuizz\obj\Debug\netstandard2.0\PokeQuizz.dll
+D:\ingesup\M2\Xamarin\Projets\PokeQuizz\PokeQuizz\PokeQuizz\obj\Debug\netstandard2.0\PokeQuizz.pdb
+D:\ingesup\M2\Xamarin\Projets\PokeQuizz\PokeQuizz\PokeQuizz\obj\Debug\netstandard2.0\Views\LoginPage.xaml.g.cs
+D:\ingesup\M2\Xamarin\Projets\PokeQuizz\PokeQuizz\PokeQuizz\obj\Debug\netstandard2.0\Views\SignUpPage.xaml.g.cs

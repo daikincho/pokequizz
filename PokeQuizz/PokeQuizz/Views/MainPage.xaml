@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PokeQuizz.Views.MainPage"
+             Title="{Binding Title}">
+
+    <StackLayout HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" Spacing="5">
+        
+        <Button Text="LOGIN"
+                VerticalOptions="CenterAndExpand"
+                HorizontalOptions="Center"
+                Command="{Binding LoginCommand}"
+                
+                />
+
+        <Button Text="SIGN UP" BackgroundColor="Azure"
+                VerticalOptions="CenterAndExpand"
+                HorizontalOptions="Center"
+                Command="{Binding SignUpCommand}"
+                
+                />
+
+
+        <StackLayout Orientation="Horizontal">
+            <Label Text="you are an admin," />
+            <Label Text="click here" />
+        </StackLayout>
+        
+    </StackLayout>
+
+</ContentPage>
