@@ -24,7 +24,8 @@ namespace PokeQuizz.ViewModels
         public Command LoginCommand => new Command(LoginCommandAction);
         public Command SignUpCommand => new Command(SignUpCommandAction);
         public Command AnonymeCommand => new Command(AnonymeCommandAction);
-
+        public Command AdminCommand => new Command(AdminCommandAction);
+        
 
         #endregion
 
@@ -53,6 +54,11 @@ namespace PokeQuizz.ViewModels
         void AnonymeCommandAction()
         {
             //_navigationService.NavigateAsync("SignUpPage");
+        }
+
+        void AdminCommandAction()
+        {
+            _navigationService.NavigateAsync("AdminPage");
         }
 
 

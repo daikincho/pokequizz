@@ -23,7 +23,17 @@
 
         <StackLayout Orientation="Horizontal">
             <Label Text="you are an admin," />
-            <Label Text="click here" />
+            <Label>
+                <Label.FormattedText>
+                    <FormattedString>
+                        <Span Text="click here" TextColor="Blue">
+                            <Span.GestureRecognizers>
+                                <TapGestureRecognizer Command="{Binding AdminCommand}" />
+                            </Span.GestureRecognizers>
+                        </Span>
+                    </FormattedString>
+                </Label.FormattedText>
+            </Label>
         </StackLayout>
         
     </StackLayout>

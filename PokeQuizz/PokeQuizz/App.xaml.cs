@@ -4,6 +4,9 @@ using PokeQuizz.ViewModels;
 using PokeQuizz.Views;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
+using PokeQuizz.Services.Data;
+using System.IO;
+using System;
 
 [assembly: XamlCompilation(XamlCompilationOptions.Compile)]
 namespace PokeQuizz
@@ -32,7 +35,24 @@ namespace PokeQuizz
             containerRegistry.RegisterForNavigation<MainPage, MainPageViewModel>();
             containerRegistry.RegisterForNavigation<LoginPage, LoginPageViewModel>();
             containerRegistry.RegisterForNavigation<SignUpPage, SignUpPageViewModel>();
+            containerRegistry.RegisterForNavigation<AdminPage, AdminPageViewModel>();
+
 
         }
+
+        static SQLiteHelper db;
+        public static SQLiteHelper SQLiteDb
+        {
+            get
+            {
+                if (db == null)
+                {
+                    db = new SQLiteHelper(Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData), "XamarinSQLite.db3"));
+                }
+                return db;
+            }
+        }
     }
+
+
 }

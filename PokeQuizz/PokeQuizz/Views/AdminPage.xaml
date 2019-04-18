@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PokeQuizz.Views.AdminPage">
+    <ContentPage.Content>
+        <ScrollView>
+
+            <StackLayout>
+                <StackLayout>
+                    <StackLayout HorizontalOptions="Center" VerticalOptions="Start">
+                        <Button  WidthRequest="200" Text="Refresh all questions" Command="{Binding RefreshQuestionListCommand}" />
+                        <Image x:Name="imgBanner" Source="banner.png" ></Image>
+                        <Image Margin="0,0,0,10" HeightRequest="100" Source="ic_launcher.png" ></Image>
+                        <Label Margin="0,0,0,10" Text="The question !" FontAttributes="Bold" FontSize="Large" TextColor="Gray" HorizontalTextAlignment="Center" ></Label>
+                        <Entry x:Name="txtPersonId" Text="{Binding Question.QuestionID}"  Placeholder="Question' ID"></Entry>
+                        <Entry x:Name="txtName"  Text="{Binding Question.Description}" Placeholder="Enter Question's description"></Entry>
+                        <Label Margin="0,0,0,10" Text="Answers !" FontAttributes="Bold" FontSize="Large" TextColor="Gray" HorizontalTextAlignment="Center" ></Label>
+                        <Entry  Text="{Binding AnswerList[0].Description}"  Placeholder="Correct answer" BackgroundColor="GreenYellow"></Entry>
+                        <Entry  Text="{Binding AnswerList[1].Description}"  Placeholder="One false answer"></Entry>
+                        <Entry  Text="{Binding AnswerList[2].Description}"  Placeholder="One false answer"></Entry>
+                        <StackLayout  HorizontalOptions="CenterAndExpand">
+                            <Button x:Name="btnAdd" WidthRequest="200" Text="Add or Update" Command="{Binding AddOrUpdateCommand}" />
+                            <Button  WidthRequest="200" Text="Delete" Command="{Binding DeleteQuestionCommand}" />
+                            <Button  WidthRequest="200" Text="New question" Command="{Binding InitializeQuestionCommand}" />
+                            <!--<Button x:Name="btnRead" WidthRequest="200" Text="Read" />-->
+                        </StackLayout>
+                        <StackLayout HorizontalOptions="CenterAndExpand" Orientation="Horizontal">
+                            <!--<Button  WidthRequest="200" Text="Update" />-->
+                            <!--<Button  WidthRequest="200" Text="Delete" Command="{Binding DeleteQuestionCommand}" />-->
+                        </StackLayout>
+                        <ListView ItemsSource="{Binding QuestionList}" SelectedItem="{Binding QuestionSelected}">
+                            <ListView.ItemTemplate>
+                                <DataTemplate>
+
+                                    <ViewCell>
+                                        <Grid>
+                                            <Grid.RowDefinitions>
+                                                <RowDefinition Height="*" />
+                                                <RowDefinition Height="*" />
+                                            </Grid.RowDefinitions>
+                                            <Grid.ColumnDefinitions>
+                                                <ColumnDefinition Width="Auto" />
+                                                <ColumnDefinition Width="3*" />
+                                                <ColumnDefinition Width="*" />
+
+                                            </Grid.ColumnDefinitions>
+
+                                            <Label Text="{Binding QuestionID}" FontAttributes="Bold" />
+                                            <Label Grid.Column="1" Text="{Binding Description}" />
+                                            <!--<Label Grid.Column="2" Text="{Binding Answers[0].Description}" TextColor="Green" />-->
+                                        </Grid>
+                                    </ViewCell>
+                                    
+                                    
+                                    <!--<StackLayout>
+                                        <Label Text="{Binding Description }"></Label>
+                                    </StackLayout>
+                                    <TextCell Text="{Binding Description}" Detail="{Binding QuestionID}"></TextCell>-->
+                                </DataTemplate>
+                            </ListView.ItemTemplate>
+                        </ListView>
+
+                    </StackLayout>
+                </StackLayout>
+            </StackLayout>
+
+        </ScrollView>
+
+
+
+        
+
+
+
+    </ContentPage.Content>
+</ContentPage>
