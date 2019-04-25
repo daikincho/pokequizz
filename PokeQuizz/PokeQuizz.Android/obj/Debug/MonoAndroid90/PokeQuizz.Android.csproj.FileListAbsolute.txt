@@ -67,7 +67,6 @@ D:\ingesup\M2\Xamarin\Projets\PokeQuizz\PokeQuizz\PokeQuizz.Android\obj\Debug\Mo
 D:\ingesup\M2\Xamarin\Projets\PokeQuizz\PokeQuizz\PokeQuizz.Android\obj\Debug\MonoAndroid90\linksrc\System.ComponentModel.Composition.pdb
 D:\ingesup\M2\Xamarin\Projets\PokeQuizz\PokeQuizz\PokeQuizz.Android\obj\Debug\MonoAndroid90\linksrc\System.Runtime.Serialization.pdb
 D:\ingesup\M2\Xamarin\Projets\PokeQuizz\PokeQuizz\PokeQuizz.Android\obj\Debug\MonoAndroid90\linksrc\System.ServiceModel.Internals.pdb
-D:\ingesup\M2\Xamarin\Projets\PokeQuizz\PokeQuizz\PokeQuizz.Android\obj\Debug\MonoAndroid90\linksrc\Microsoft.CSharp.pdb
 D:\ingesup\M2\Xamarin\Projets\PokeQuizz\PokeQuizz\PokeQuizz.Android\obj\Debug\MonoAndroid90\linksrc\System.Data.pdb
 D:\ingesup\M2\Xamarin\Projets\PokeQuizz\PokeQuizz\PokeQuizz.Android\obj\Debug\MonoAndroid90\linksrc\System.Numerics.pdb
 D:\ingesup\M2\Xamarin\Projets\PokeQuizz\PokeQuizz\PokeQuizz.Android\obj\Debug\MonoAndroid90\linksrc\System.Transactions.pdb
@@ -83,7 +82,6 @@ D:\ingesup\M2\Xamarin\Projets\PokeQuizz\PokeQuizz\PokeQuizz.Android\obj\Debug\Mo
 D:\ingesup\M2\Xamarin\Projets\PokeQuizz\PokeQuizz\PokeQuizz.Android\obj\Debug\MonoAndroid90\android\assets\PokeQuizz.Android.dll.mdb
 D:\ingesup\M2\Xamarin\Projets\PokeQuizz\PokeQuizz\PokeQuizz.Android\obj\Debug\MonoAndroid90\android\assets\Prism.dll.mdb
 D:\ingesup\M2\Xamarin\Projets\PokeQuizz\PokeQuizz\PokeQuizz.Android\obj\Debug\MonoAndroid90\android\assets\Xamarin.Forms.Platform.Android.dll.mdb
-D:\ingesup\M2\Xamarin\Projets\PokeQuizz\PokeQuizz\PokeQuizz.Android\obj\Debug\MonoAndroid90\android\assets\Microsoft.CSharp.pdb
 D:\ingesup\M2\Xamarin\Projets\PokeQuizz\PokeQuizz\PokeQuizz.Android\obj\Debug\MonoAndroid90\android\assets\Mono.Android.pdb
 D:\ingesup\M2\Xamarin\Projets\PokeQuizz\PokeQuizz\PokeQuizz.Android\obj\Debug\MonoAndroid90\android\assets\Mono.Security.pdb
 D:\ingesup\M2\Xamarin\Projets\PokeQuizz\PokeQuizz\PokeQuizz.Android\obj\Debug\MonoAndroid90\android\assets\mscorlib.pdb
@@ -108,7 +106,6 @@ D:\ingesup\M2\Xamarin\Projets\PokeQuizz\PokeQuizz\PokeQuizz.Android\obj\Debug\Mo
 D:\ingesup\M2\Xamarin\Projets\PokeQuizz\PokeQuizz\PokeQuizz.Android\obj\Debug\MonoAndroid90\android\assets\Xamarin.Forms.Core.pdb
 D:\ingesup\M2\Xamarin\Projets\PokeQuizz\PokeQuizz\PokeQuizz.Android\obj\Debug\MonoAndroid90\android\assets\Xamarin.Forms.Xaml.pdb
 D:\ingesup\M2\Xamarin\Projets\PokeQuizz\PokeQuizz\PokeQuizz.Android\bin\Debug\PokeQuizz.Android.dll
-D:\ingesup\M2\Xamarin\Projets\PokeQuizz\PokeQuizz\PokeQuizz.Android\obj\Debug\MonoAndroid90\linksrc\PokeQuizz.pdb
 D:\ingesup\M2\Xamarin\Projets\PokeQuizz\PokeQuizz\PokeQuizz.Android\obj\Debug\MonoAndroid90\linksrc\PokeQuizz.Android.dll.mdb
 D:\ingesup\M2\Xamarin\Projets\PokeQuizz\PokeQuizz\PokeQuizz.Android\obj\Debug\MonoAndroid90\linksrc\FormsViewGroup.dll.mdb
 D:\ingesup\M2\Xamarin\Projets\PokeQuizz\PokeQuizz\PokeQuizz.Android\obj\Debug\MonoAndroid90\linksrc\Prism.dll.mdb

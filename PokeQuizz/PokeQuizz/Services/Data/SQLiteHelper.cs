@@ -17,6 +17,7 @@ namespace PokeQuizz.Services.Data
             db = new SQLiteConnection(dbPath);
             db.CreateTable<Question>();
             db.CreateTable<Answer>();
+            db.CreateTable<User>();
         }
 
 
@@ -50,6 +51,20 @@ namespace PokeQuizz.Services.Data
             
         }
 
+
+        //user
+        public void SaveItemAsync(User user)
+        {
+            if (user != null)
+                WriteOperations.InsertWithChildren(db, user);
+        }
+
+        public List<User> GetUsersAsync()
+        {
+            //return db.Table<Question>().ToListAsync();
+            return ReadOperations.GetAllWithChildren<User>(db);
+
+        }
 
 
     }

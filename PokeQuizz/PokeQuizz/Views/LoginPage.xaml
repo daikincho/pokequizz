@@ -4,13 +4,13 @@
              x:Class="PokeQuizz.Views.LoginPage">
     <ContentPage.Content>
         <StackLayout>
-            <Entry Placeholder="Username" PlaceholderColor="DimGray" />
-            <Entry Placeholder="Password" PlaceholderColor="DimGray" IsPassword="True" />
+            <Entry Placeholder="Username" PlaceholderColor="DimGray" Text="{Binding Name}" />
+            <Entry Placeholder="Password" PlaceholderColor="DimGray" IsPassword="True" Text="{Binding Password}" />
 
             <Button Text="LOGIN" BackgroundColor="Accent"
                 VerticalOptions="CenterAndExpand"
                 HorizontalOptions="Center"
-                
+                Command="{Binding LoginUserCommand}"
                 
                 />
             

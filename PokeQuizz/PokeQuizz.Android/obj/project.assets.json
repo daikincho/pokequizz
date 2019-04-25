@@ -84,13 +84,13 @@
           "System.Xml.XDocument": "4.3.0"
         }
       },
-      "Newtonsoft.Json/9.0.1": {
+      "Newtonsoft.Json/12.0.2": {
         "type": "package",
         "compile": {
-          "lib/portable-net45+wp80+win8+wpa81/Newtonsoft.Json.dll": {}
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
         },
         "runtime": {
-          "lib/portable-net45+wp80+win8+wpa81/Newtonsoft.Json.dll": {}
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
         }
       },
       "Prism.Core/7.1.0.431": {
@@ -1009,6 +1009,7 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
+          "Newtonsoft.Json": "12.0.2",
           "Prism.DryIoc.Forms": "7.1.0.431",
           "PropertyChanged.Fody": "2.6.1",
           "SQLiteNetExtensions": "2.1.0",
@@ -1154,11 +1155,13 @@
         "netstandard.library.nuspec"
       ]
     },
-    "Newtonsoft.Json/9.0.1": {
-      "sha512": "U82mHQSKaIk+lpSVCbWYKNavmNH1i5xrExDEquU1i6I5pV6UMOqRnJRSlKO3cMPfcpp0RgDY+8jUXHdQ4IfXvw==",
+    "Newtonsoft.Json/12.0.2": {
+      "sha512": "mtweBXPWhp1CMQATtBT7ZfMZrbZBTKfjGwz6Y75NwGjx/GztDaUnfw8GK9KZ2T4fDIqKJyDjc9Rxlw5+G2FcVA==",
       "type": "package",
-      "path": "newtonsoft.json/9.0.1",
+      "path": "newtonsoft.json/12.0.2",
       "files": [
+        ".signature.p7s",
+        "LICENSE.md",
         "lib/net20/Newtonsoft.Json.dll",
         "lib/net20/Newtonsoft.Json.xml",
         "lib/net35/Newtonsoft.Json.dll",
@@ -1169,13 +1172,16 @@
         "lib/net45/Newtonsoft.Json.xml",
         "lib/netstandard1.0/Newtonsoft.Json.dll",
         "lib/netstandard1.0/Newtonsoft.Json.xml",
-        "lib/portable-net40+sl5+wp80+win8+wpa81/Newtonsoft.Json.dll",
-        "lib/portable-net40+sl5+wp80+win8+wpa81/Newtonsoft.Json.xml",
-        "lib/portable-net45+wp80+win8+wpa81/Newtonsoft.Json.dll",
-        "lib/portable-net45+wp80+win8+wpa81/Newtonsoft.Json.xml",
-        "newtonsoft.json.9.0.1.nupkg.sha512",
-        "newtonsoft.json.nuspec",
-        "tools/install.ps1"
+        "lib/netstandard1.3/Newtonsoft.Json.dll",
+        "lib/netstandard1.3/Newtonsoft.Json.xml",
+        "lib/netstandard2.0/Newtonsoft.Json.dll",
+        "lib/netstandard2.0/Newtonsoft.Json.xml",
+        "lib/portable-net40+sl5+win8+wp8+wpa81/Newtonsoft.Json.dll",
+        "lib/portable-net40+sl5+win8+wp8+wpa81/Newtonsoft.Json.xml",
+        "lib/portable-net45+win8+wp8+wpa81/Newtonsoft.Json.dll",
+        "lib/portable-net45+win8+wp8+wpa81/Newtonsoft.Json.xml",
+        "newtonsoft.json.12.0.2.nupkg.sha512",
+        "newtonsoft.json.nuspec"
       ]
     },
     "Prism.Core/7.1.0.431": {
@@ -4373,6 +4379,7 @@
   },
   "projectFileDependencyGroups": {
     "MonoAndroid,Version=v9.0": [
+      "Newtonsoft.Json >= 12.0.2",
       "PokeQuizz >= 1.0.0",
       "Prism.DryIoc.Forms >= 7.1.0.431",
       "PropertyChanged.Fody >= 2.6.1",
@@ -4423,6 +4430,10 @@
     "frameworks": {
       "monoandroid90": {
         "dependencies": {
+          "Newtonsoft.Json": {
+            "target": "Package",
+            "version": "[12.0.2, )"
+          },
           "Prism.DryIoc.Forms": {
             "target": "Package",
             "version": "[7.1.0.431, )"

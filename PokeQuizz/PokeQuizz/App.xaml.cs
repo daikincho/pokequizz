@@ -7,6 +7,8 @@ using Xamarin.Forms.Xaml;
 using PokeQuizz.Services.Data;
 using System.IO;
 using System;
+using PokeQuizz.Models;
+using PokeQuizz.Services.Manager;
 
 [assembly: XamlCompilation(XamlCompilationOptions.Compile)]
 namespace PokeQuizz
@@ -25,6 +27,7 @@ namespace PokeQuizz
         protected override async void OnInitialized()
         {
             InitializeComponent();
+            MyApplicationManager appManager = MyApplicationManager.Instance();
 
             await NavigationService.NavigateAsync("NavigationPage/MainPage");
         }
@@ -36,6 +39,7 @@ namespace PokeQuizz
             containerRegistry.RegisterForNavigation<LoginPage, LoginPageViewModel>();
             containerRegistry.RegisterForNavigation<SignUpPage, SignUpPageViewModel>();
             containerRegistry.RegisterForNavigation<AdminPage, AdminPageViewModel>();
+            containerRegistry.RegisterForNavigation<UserPage, UserPageViewModel>();
 
 
         }

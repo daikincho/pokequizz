@@ -4,14 +4,14 @@
              x:Class="PokeQuizz.Views.SignUpPage">
     <ContentPage.Content>
         <StackLayout>
-            <Entry Placeholder="Email" PlaceholderColor="DimGray" />
-            <Entry Placeholder="Username" PlaceholderColor="DimGray" />
-            <Entry Placeholder="Password" PlaceholderColor="DimGray" IsPassword="True" />
+            <Entry Placeholder="Email" PlaceholderColor="DimGray" Text="{Binding Email}" />
+            <Entry Placeholder="Username" PlaceholderColor="DimGray" Text="{Binding Name}" />
+            <Entry Placeholder="Password" PlaceholderColor="DimGray" IsPassword="True" Text="{Binding Password}" />
 
             <Button Text="SIGN UP" BackgroundColor="Accent"
                 VerticalOptions="CenterAndExpand"
                 HorizontalOptions="Center"
-                
+                Command="{Binding CreateUserCommand}"
                 />
 
 
