@@ -16,7 +16,19 @@
                    
                    />
             </StackLayout>
+
+
+            <StackLayout>
+                
+                <Button Text="PLAY" BackgroundColor="Accent"
+                VerticalOptions="CenterAndExpand"
+                HorizontalOptions="Center"
+                Command="{Binding PlayCommand}"
+                />
+                
+            </StackLayout>
             
+
         </StackLayout>
     </ContentPage.Content>
 </ContentPage> 

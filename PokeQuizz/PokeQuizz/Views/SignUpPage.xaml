@@ -18,6 +18,25 @@
             <Label Text="Welcome to Xamarin.Forms!"
                 VerticalOptions="CenterAndExpand" 
                 HorizontalOptions="CenterAndExpand" />
+
+
+            <StackLayout>
+                <Button x:Name="btnPick" Text="Pick Contact" ></Button>
+                <ListView ItemsSource="{Binding ListContact }" SelectedItem="{Binding ContactSelected}">
+                    <ListView.ItemTemplate>
+                        <DataTemplate>
+                            <ViewCell>
+                                <StackLayout>
+                                    <Label Text="{Binding DisplayName}"></Label>
+                                </StackLayout>
+                            </ViewCell>
+                        </DataTemplate>
+                    </ListView.ItemTemplate>
+                </ListView>
+            </StackLayout>
+            
+            
         </StackLayout>
+        
     </ContentPage.Content>
 </ContentPage>

@@ -1,6 +1,8 @@
 ﻿using Android.App;
 using Android.Content.PM;
 using Android.OS;
+using PokeQuizz.Droid.Helpers;
+using PokeQuizz.Services.Interfaces;
 using Prism;
 using Prism.Ioc;
 
@@ -26,6 +28,8 @@ namespace PokeQuizz.Droid
         public void RegisterTypes(IContainerRegistry containerRegistry)
         {
             // Register any platform specific implementations
+
+            containerRegistry.Register<IContacts, ContactHelper>();
         }
     }
 }

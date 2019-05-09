@@ -9,6 +9,7 @@ using System.IO;
 using System;
 using PokeQuizz.Models;
 using PokeQuizz.Services.Manager;
+using PokeQuizz.Services.Interfaces;
 
 [assembly: XamlCompilation(XamlCompilationOptions.Compile)]
 namespace PokeQuizz
@@ -40,7 +41,7 @@ namespace PokeQuizz
             containerRegistry.RegisterForNavigation<SignUpPage, SignUpPageViewModel>();
             containerRegistry.RegisterForNavigation<AdminPage, AdminPageViewModel>();
             containerRegistry.RegisterForNavigation<UserPage, UserPageViewModel>();
-
+            
 
         }
 

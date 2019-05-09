@@ -5,6 +5,7 @@ using PropertyChanged;
 using System;
 using System.Collections.Generic;
 using System.Text;
+using Xamarin.Forms;
 
 namespace PokeQuizz.ViewModels
 {
@@ -22,7 +23,7 @@ namespace PokeQuizz.ViewModels
 
         #region Poroperties
 
-        // public Command CreateUserCommand => new Command(CreateUserCommandAction);
+          public Command PlayCommand => new Command(PlayCommandAction);
        // public string Email { get; set; }
        // public string Name { get; set; }
           public string UserName { get; set; }
@@ -43,6 +44,12 @@ namespace PokeQuizz.ViewModels
             BestScore = appManager.CurrentUser.BestScore;
         }
 
+
+
+        void PlayCommandAction()
+        {
+
+        }
 
     }
 }
