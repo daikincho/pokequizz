@@ -53,10 +53,16 @@ namespace PokeQuizz.Services.Data
 
 
         //user
-        public void SaveItemAsync(User user)
+        public void SaveItemAsync(User user, bool isNewUser = false)
         {
             if (user != null)
-                WriteOperations.InsertWithChildren(db, user);
+            {
+                if(isNewUser)
+                    WriteOperations.InsertWithChildren(db, user);
+                else
+                    WriteOperations.UpdateWithChildren(db, user);
+            }
+                
         }
 
         public List<User> GetUsersAsync()

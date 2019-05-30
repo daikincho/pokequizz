@@ -41,7 +41,7 @@ namespace PokeQuizz
             containerRegistry.RegisterForNavigation<SignUpPage, SignUpPageViewModel>();
             containerRegistry.RegisterForNavigation<AdminPage, AdminPageViewModel>();
             containerRegistry.RegisterForNavigation<UserPage, UserPageViewModel>();
-            
+            containerRegistry.RegisterForNavigation<PlayPage, PlayPageViewModel>();
 
         }
 

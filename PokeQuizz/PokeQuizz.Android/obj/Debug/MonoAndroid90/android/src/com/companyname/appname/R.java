@@ -3603,13 +3603,14 @@ containing a value of this type.
         public static final int notification_template_media_custom=0x7f04003a;
         public static final int notification_template_part_chronometer=0x7f04003b;
         public static final int notification_template_part_time=0x7f04003c;
-        public static final int select_dialog_item_material=0x7f04003d;
-        public static final int select_dialog_multichoice_material=0x7f04003e;
-        public static final int select_dialog_singlechoice_material=0x7f04003f;
-        public static final int support_simple_spinner_dropdown_item=0x7f040040;
-        public static final int tabbar=0x7f040041;
-        public static final int toolbar=0x7f040042;
-        public static final int tooltip=0x7f040043;
+        public static final int rounded_shape=0x7f04003d;
+        public static final int select_dialog_item_material=0x7f04003e;
+        public static final int select_dialog_multichoice_material=0x7f04003f;
+        public static final int select_dialog_singlechoice_material=0x7f040040;
+        public static final int support_simple_spinner_dropdown_item=0x7f040041;
+        public static final int tabbar=0x7f040042;
+        public static final int toolbar=0x7f040043;
+        public static final int tooltip=0x7f040044;
     }
     public static final class mipmap {
         public static final int ic_launcher=0x7f030000;

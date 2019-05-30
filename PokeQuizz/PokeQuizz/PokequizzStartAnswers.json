@@ -1,0 +1,83 @@
+[
+  {
+    "AnswerID": 0,
+    "Description": "Du hasard",
+    "IsCorrect": true
+  },
+  {
+    "AnswerID": 0,
+    "Description": "De l'heure (jour ou nuit)",
+    "IsCorrect": false
+  },
+  {
+    "AnswerID": 0,
+    "Description": "De l'endroit où l'on a trouvé Chenipotte",
+    "IsCorrect": false
+  },
+
+  {
+    "AnswerID": 0,
+    "Description": "0 et 31",
+    "IsCorrect": true
+  },
+  {
+    "AnswerID": 0,
+    "Description": "0 et 21",
+    "IsCorrect": false
+  },
+  {
+    "AnswerID": 0,
+    "Description": "0 et 41",
+    "IsCorrect": false
+  },
+
+  {
+    "AnswerID": 0,
+    "Description": "Une dent océan",
+    "IsCorrect": true
+  },
+  {
+    "AnswerID": 0,
+    "Description": "Une écaille océan",
+    "IsCorrect": false
+  },
+  {
+    "AnswerID": 0,
+    "Description": "Une écaille draco",
+    "IsCorrect": false
+  },
+  {
+    "AnswerID": 0,
+    "Description": "510",
+    "IsCorrect": true
+  },
+  {
+    "AnswerID": 0,
+    "Description": "350",
+    "IsCorrect": false
+  },
+  {
+    "AnswerID": 0,
+    "Description": "430",
+    "IsCorrect": false
+  },
+
+  {
+    "AnswerID": 0,
+    "Description": "3",
+    "IsCorrect": true
+  },
+  {
+    "AnswerID": 0,
+    "Description": "2",
+    "IsCorrect": false
+  },
+  {
+    "AnswerID": 0,
+    "Description": "4",
+    "IsCorrect": false
+  }
+
+
+
+]

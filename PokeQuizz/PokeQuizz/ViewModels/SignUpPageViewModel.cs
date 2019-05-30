@@ -83,7 +83,7 @@ namespace PokeQuizz.ViewModels
             {
                 List<User> allDatabaseUsers = App.SQLiteDb.GetUsersAsync();
                 if(!allDatabaseUsers.Any(u => u.Name == Name)){
-                    App.SQLiteDb.SaveItemAsync(me);
+                    App.SQLiteDb.SaveItemAsync(me, true);
                     _navigationService.NavigateAsync("LoginPage");
                 }
                 else

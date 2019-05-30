@@ -48,7 +48,7 @@ namespace PokeQuizz.ViewModels
 
         void PlayCommandAction()
         {
-
+            _navigationService.NavigateAsync("PlayPage");
         }
 
     }

@@ -1,6 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:PokeQuizz.Services.Renderers"
              x:Class="PokeQuizz.Views.AdminPage">
     <ContentPage.Content>
         <ScrollView>
@@ -15,9 +16,9 @@
                         <Entry x:Name="txtPersonId" Text="{Binding Question.QuestionID}"  Placeholder="Question' ID"></Entry>
                         <Entry x:Name="txtName"  Text="{Binding Question.Description}" Placeholder="Enter Question's description"></Entry>
                         <Label Margin="0,0,0,10" Text="Answers !" FontAttributes="Bold" FontSize="Large" TextColor="Gray" HorizontalTextAlignment="Center" ></Label>
-                        <Entry  Text="{Binding AnswerList[0].Description}"  Placeholder="Correct answer" BackgroundColor="GreenYellow"></Entry>
-                        <Entry  Text="{Binding AnswerList[1].Description}"  Placeholder="One false answer"></Entry>
-                        <Entry  Text="{Binding AnswerList[2].Description}"  Placeholder="One false answer"></Entry>
+                        <local:RoundedEntry  Text="{Binding AnswerList[0].Description}"  Placeholder="Correct answer" BackgroundColor="GreenYellow"></local:RoundedEntry>
+                        <local:RoundedEntry  Text="{Binding AnswerList[1].Description}"  Placeholder="One false answer"></local:RoundedEntry>
+                        <local:RoundedEntry  Text="{Binding AnswerList[2].Description}"  Placeholder="One false answer"></local:RoundedEntry>
                         <StackLayout  HorizontalOptions="CenterAndExpand">
                             <Button x:Name="btnAdd" WidthRequest="200" Text="Add or Update" Command="{Binding AddOrUpdateCommand}" />
                             <Button  WidthRequest="200" Text="Delete" Command="{Binding DeleteQuestionCommand}" />

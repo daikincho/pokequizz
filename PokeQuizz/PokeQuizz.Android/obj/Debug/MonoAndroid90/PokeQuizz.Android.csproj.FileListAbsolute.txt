@@ -21,6 +21,7 @@ D:\ingesup\M2\Xamarin\Projets\PokeQuizz\PokeQuizz\PokeQuizz.Android\obj\Debug\Mo
 D:\ingesup\M2\Xamarin\Projets\PokeQuizz\PokeQuizz\PokeQuizz.Android\obj\Debug\MonoAndroid90\res\layout\tabbar.xml
 D:\ingesup\M2\Xamarin\Projets\PokeQuizz\PokeQuizz\PokeQuizz.Android\obj\Debug\MonoAndroid90\res\layout\toolbar.xml
 D:\ingesup\M2\Xamarin\Projets\PokeQuizz\PokeQuizz\PokeQuizz.Android\obj\Debug\MonoAndroid90\res\values\styles.xml
+D:\ingesup\M2\Xamarin\Projets\PokeQuizz\PokeQuizz\PokeQuizz.Android\obj\Debug\MonoAndroid90\res\layout\rounded_shape.xml
 D:\ingesup\M2\Xamarin\Projets\PokeQuizz\PokeQuizz\PokeQuizz.Android\obj\Debug\MonoAndroid90\R.cs.flag
 D:\ingesup\M2\Xamarin\Projets\PokeQuizz\PokeQuizz\PokeQuizz.Android\obj\Debug\MonoAndroid90\R.txt
 D:\ingesup\M2\Xamarin\Projets\PokeQuizz\PokeQuizz\PokeQuizz.Android\obj\Debug\MonoAndroid90\uploadflags.txt

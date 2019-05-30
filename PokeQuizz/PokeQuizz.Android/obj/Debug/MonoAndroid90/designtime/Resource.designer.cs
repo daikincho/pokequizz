@@ -3789,6 +3789,9 @@ namespace PokeQuizz.Droid
 			// aapt resource value: 0x7F0F0006
 			public const int notification_template_part_time = 2131689478;
 			
+			// aapt resource value: 0x7F020003
+			public const int rounded_shape = 2130837507;
+			
 			// aapt resource value: 0x7F0F0038
 			public const int select_dialog_item_material = 2131689528;
 			
@@ -3801,11 +3804,11 @@ namespace PokeQuizz.Droid
 			// aapt resource value: 0x7F0F003B
 			public const int support_simple_spinner_dropdown_item = 2131689531;
 			
-			// aapt resource value: 0x7F020003
-			public const int Tabbar = 2130837507;
-			
 			// aapt resource value: 0x7F020004
-			public const int Toolbar = 2130837508;
+			public const int Tabbar = 2130837508;
+			
+			// aapt resource value: 0x7F020005
+			public const int Toolbar = 2130837509;
 			
 			// aapt resource value: 0x7F0F003C
 			public const int tooltip = 2131689532;
